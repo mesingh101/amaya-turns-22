@@ -869,32 +869,6 @@ body {
     );
 }
 
-.night-garden {
-  --cream: #101d2c;
-  --white: #16283a;
-  --ink: #edf5ff;
-  --muted: #c1ccda;
-  background:
-    radial-gradient(circle at 82% 8%, rgba(255, 250, 205, 0.18), transparent 9%),
-    radial-gradient(circle at 18% 25%, rgba(68, 93, 130, 0.35), transparent 28%),
-    linear-gradient(180deg, #07121f, #122b35 55%, #183c35);
-}
-
-.night-garden .navbar,
-.night-garden .letter-card,
-.night-garden .impact-card,
-.night-garden .memory-card {
-  background: rgba(20, 38, 52, 0.82);
-  border-color: rgba(255, 255, 255, 0.12);
-}
-
-.night-garden h1,
-.night-garden .section-heading h2,
-.night-garden .impact-card h3,
-.night-garden .memory-card h3 {
-  color: #f4f6ff;
-}
-
 .sound-toggle {
   position: fixed;
   right: 18px;

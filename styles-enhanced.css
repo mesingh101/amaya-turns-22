@@ -1315,18 +1315,3 @@ body {
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
-.night-garden .envelope-button,
-.night-garden .impact-letter {
-  background: rgba(28, 45, 57, 0.92);
-  border-color: rgba(255, 255, 255, 0.1);
-}
-
-.night-garden .envelope-label,
-.night-garden .impact-letter-copy h3 {
-  color: #f8f2df;
-}
-
-.night-garden .envelope-hint,
-.night-garden .impact-letter-copy p:not(.letter-from) {
-  color: rgba(255, 255, 255, 0.73);
-}

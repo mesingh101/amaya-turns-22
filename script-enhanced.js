@@ -71,10 +71,6 @@ function updateSky() {
 window.addEventListener("scroll", updateSky, { passive: true });
 updateSky();
 
-// 5. Automatic moonlit garden between 7 p.m. and 6 a.m.
-const hour = new Date().getHours();
-if (hour >= 19 || hour < 6) document.body.classList.add("night-garden");
-
 // 6. Optional ambient audio. Browsers require a click before playing sound.
 // Optional background music
 gardenAudio.volume = 0.18;
